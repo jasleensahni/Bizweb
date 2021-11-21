@@ -1,0 +1,150 @@
+/* css boilers plate */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.navbar {
+  height: 10vh;
+  display: flex;
+  width: 100%;
+  padding: 10px 10px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(32, 30, 30);
+  color: ivory;
+  margin-right: 30px;
+}
+.navbar .navbarlogo {
+  font-weight: 700;
+  font-size: 30px;
+  color: #fc4604;
+  padding: 20px 20px;
+}
+.navbar .navlinks ul {
+  list-style: none;
+  display: flex;
+  margin-right: 20px;
+
+  color: white;
+  font-weight: 22px;
+  justify-content: space-between;
+  width: 250px;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  padding: 30px 0px;
+}
+.hero {
+  width: 100%;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+
+  background-image: url(https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero .overlay {
+  background-color: rgba(0, 0, 0, 0.562);
+  height: 90vh;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero .overlay h1 {
+  height: 60px;
+}
+.hero .overlay button {
+  align-items: center;
+  text-align: center;
+
+  border-radius: 4px;
+  background-color: rgb(223, 82, 31);
+  color: cornsilk;
+  padding: 10px;
+  margin-top: 15px;
+}
+.btn:hover {
+  transform: scale(1.3);
+  transition: all 0.2s ease-in-out;
+}
+.services {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 200px;
+  text-align: center;
+}
+.services .box1:hover {
+  transition: all 0.1s ease-in-out;
+  transform: scale(1.05);
+}
+.services .box2:hover {
+  transition: all 0.1s ease-in-out;
+  transform: scale(1.05);
+}
+.services .box3:hover {
+  transition: all 0.1s ease-in-out;
+  transform: scale(1.05);
+}
+
+.services img:hover {
+  transition: all 0.1s ease-in-out;
+  transform: scale(1.2);
+  color: crimson;
+}
+
+.services .box1 {
+  height: 250px;
+  width: 350px;
+  border: 2px solid black;
+  justify-content: space-between;
+  border-radius: 12px;
+}
+.services .box2 {
+  height: 250px;
+  width: 350px;
+  border: 2px solid black;
+
+  border-radius: 12px;
+}
+.services .box3 {
+  height: 250px;
+  width: 350px;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+.bookings {
+  margin: 10px;
+  height: 30vh;
+  width: 100%;
+  background-color: rgb(14, 11, 11);
+  font-weight: 80;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(253, 252, 249);
+}
+.bookings .topic {
+  padding-top: 10px;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(253, 252, 249);
+}
+.button {
+  background-color: orangered;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
